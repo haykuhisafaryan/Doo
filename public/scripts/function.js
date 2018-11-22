@@ -1,5 +1,9 @@
 //put all the functions here
 
+const rand = function(num) {
+  return Math.floor(Math.random() * num) + 1;
+};
+
 const submitData = function () {
     socket.emit("submit data", { name: player.name, score: player.score });
 }
