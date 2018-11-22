@@ -3,7 +3,7 @@ const socket = io.connect('http://localhost:3000');
 var player;
 const enemyArr = [];
 const foodArr = [];
-let numberofenemies = 3;
+let numberOfEnemies = 3;
 
 //const chosenObject = aFunctionWhichReturnsAnObject();
 
