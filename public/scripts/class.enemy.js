@@ -1,5 +1,3 @@
-for (let i = 0; i< numerofenemies; i++; enemyArr.push(enemy1) )
-
 class Enemy extends Parent{
      constructor(x,y,width, height, image, numberofenemies){
         super(x,y,width, height, image);
