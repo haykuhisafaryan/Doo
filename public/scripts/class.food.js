@@ -1,0 +1,3 @@
+class Food extends Parent{
+    
+}
