@@ -4,6 +4,7 @@ var player;
 const enemyArr = [];
 const foodArr = [];
 let numberofenemies = 3;
+let numberoffoods = 7;
 
 //const chosenObject = aFunctionWhichReturnsAnObject();
 
