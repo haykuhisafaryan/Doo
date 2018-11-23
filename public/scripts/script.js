@@ -7,6 +7,9 @@ const draw = function () {
     // }
     // soap.draw();
     // gameData.hero.draw();
+     for (let i = 0; i < enemyArr.length; i++) {
+        enemyArr[i].draw();
+    };
     player.draw();
 }
 const update = function () {
@@ -23,6 +26,8 @@ const loop = function () {
     // h3.innerHTML = "SCORE: " + score;
     // if (!gameData.hero.dead)
     requestAnimationFrame(loop);
+    for (let i = 0; i < enemyArr.length; i++) {
+        enemyArr[i].update();
 }
 
 loop();
