@@ -5,7 +5,6 @@ class Food extends Parent{
         this.y =  rand(cnv.height - foodHeight);
         
     }
-
     
 }
 for (let i = 0; i< numeroffoods; i++){ 
