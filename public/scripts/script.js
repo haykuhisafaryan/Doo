@@ -10,6 +10,9 @@ const draw = function () {
      for (let i = 0; i < enemyArr.length; i++) {
         enemyArr[i].draw();
     };
+     for (let i = 0; i < foodArr.length; i++) {
+        foodArr[i].draw();
+    };
     player.draw();
 }
 const update = function () {
