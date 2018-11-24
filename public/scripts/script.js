@@ -9,7 +9,7 @@ const draw = function () {
     // gameData.hero.draw();
     for (let i = 0; i < enemyArr.length; i++) {
         enemyArr[i].draw();
-    };
+    }
     player.draw();
 }
 const update = function () {
@@ -20,6 +20,7 @@ const update = function () {
     // gameData.hero.update();
     for (let i = 0; i < enemyArr.length; i++) {
         enemyArr[i].update();
+    }
     player.update();
 }
 const loop = function () {
